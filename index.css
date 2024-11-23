@@ -2,7 +2,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
- 
+  color: #ffff;
 }
 
 .container {
@@ -16,3 +16,7 @@ body {
 }
 
 
+
+.points-container {
+  color: red;
+}
