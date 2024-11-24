@@ -7,19 +7,19 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class ="container">
-      <div class ="score-board">
-        <h3 class ="board-title">HOME</h3>
-        <div class ="points-container">
+    <div class ="flex flex-row bg-blue-950 w-1/2 mx-auto">
+      <div class ="basis-1/2">
+        <h3 class ="text-white font-mono font-black text-4xl">HOME</h3>
+        <div class ="bg-black text-red-900 font-mono font-black text-3xl">
           <span id ="home-points">0</span>
         </div>
         <button class ="btn_addOnePoint" onclick="addHomeOnePoint()">+1</button>
         <button class ="btn_addTwoPoint" onclick="addHomeTwoPoint()">+2</button>
         <button class ="btn_addThreePoint" onclick="addHomeThreePoint()">+3</button>
       </div>
-      <div class ="score-board">
-        <h3 class ="board-title">GUEST</h3>
-        <div class ="points-container">
+      <div class ="basis-1/2">
+        <h3 class ="text-white font-mono font-black text-4xl">GUEST</h3>
+        <div class ="bg-black text-red-900 font-mono font-black text-3xl">
           <span id ="guess-points">0</span>
         </div>
         <button class ="btn_addOnePoint" onclick="addGuessOnePoint()">+1</button>
